@@ -177,7 +177,7 @@ export default function Page() {
                 <ProjectCard
                   title="OnePost: A Dev-Centric Blogging Platform"
                   description="A full-stack blog platform with real-time notifications, authentication, and content management. With User-friendly code editor and a beautiful UI."
-                  image="/onepost.png?height=400&width=600"
+                  image="/one.png?height=400&width=600"
                   githubLink="https://github.com/neutron420/onepost"
                   liveDemoLink="https://onepost-04.vercel.app/"
                   tags={[
@@ -196,13 +196,13 @@ export default function Page() {
                   ]}
                 />
                 <ProjectCard
-                  title="SwarajDesk: A Public Grievance Portal"
+                  title="Token Exchnage Dapp"
                   description="
-                  Citizens can file complaints with media attachments, auto-classified sub-categories (via Vertex AI), and track status in 
-                  real-time. Community features include upvoting/resolving grievances in a social feed (For You, Trending, Recent), with 
-                  multilingual UI powered by Google Translate API.
+                  Simple Token is a secure and modular fungible token smart contract built in Clarity for the Stacks blockchain. 
+                  It supports minting, burning, transferring tokens, and STX deposits, with strict access control and SIP-010 standard compliance. 
+                  Designed for scalability and DeFi readiness, it serves as a clean foundation for future Web3 projects.
                   "
-                  image="/Token.png"
+                  image="/tok.png"
 
                   githubLink="https://github.com/neutron420/project-clarity"
                   liveDemoLink="https://tokedapp.vercel.app/"
@@ -215,6 +215,49 @@ export default function Page() {
                     "Leather Wallet Extension",
                     "Ether.js",
                     "Web3.js"
+                  ]}
+                />
+                   <ProjectCard
+                  title="FreshFeats: Flutter Food Delivery App"
+                  description="A modern, scalable Flutter-based food delivery application that enables users to browse menus, place food orders, track deliveries in real time, and enjoy a seamless, responsive user experience across Android and iOS platforms. Built with clean architecture, responsive UI, and state-of-the-art mobile dev practices."
+                  image="/food1.png?height=400&width=600"
+                  githubLink="https://github.com/neutron420/foodflow"
+                  tags={[
+                    "Flutter",
+                    "Dart",
+                    "Swift",
+                    "Typescript",
+                    "Ruby on Rails",
+                    "PostgreSQL",
+                    "Cross-Platform",
+                    "Real-time Tracking",
+                    "Supabase",
+                    "Stripe Integration (For Pyaments)"
+
+                  ]}
+                />
+                <ProjectCard
+                  title="TraceLogic: Product Tracing & Monitoring System Made On Bloclchain"
+                  description="A comprehensive blockchain-based product traceability system built with Solidity and Hardhat. 
+                  This system enables transparent tracking of products throughout their entire lifecycle, from manufacturing to retail, with immutable records stored on the Ethereum blockchain. 
+                  Features include role-based access control, certification management, ownership transfer, and gas-optimized event logging for full supply chain transparency."
+                  image="/tracelogic.png?height=400&width=600"
+                  githubLink="https://github.com/neutron420/producttrace"
+                  tags={[
+                    "React JS",
+                    "Typescipt",
+                    "Javascript (For Tests)",
+                    "TailwindCSS",
+                    "Ether JS",
+                    "Web3 JS",
+                    "Smart Contracts",
+                    "Ethereum BLockchain",
+                    "Sepolia",
+                    "HardHat",
+                    "Clerk Auth",
+                    "Solidity",
+                    "Metamask Wallet",
+                    "21st DeV Components"
                   ]}
                 />
               </div>
