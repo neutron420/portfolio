@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils";
 
 export default function CopyEmailButton() {
   const [copied, setCopied] = useState(false);
-  const email = "connect@adityahota.online";
+  const email = "fnaticritesh2004@gmail.com";
 
   const handleCopy = () => {
     navigator.clipboard.writeText(email).then(() => {

@@ -3,23 +3,22 @@ import { cn } from "@/lib/utils"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
-import type React from "react" // Import React
+import type React from "react"
 import Script from "next/script"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Aditya Hota | Full Stack Developer & DevOps Engineer",
-  description: "Portfolio of Aditya Hota - Full Stack Developer and DevOps Engineer specializing in React, Node.js, Docker, and Kubernetes. Explore my projects and technical expertise.",
+  title: "Ritesh Kumar Singh | Full Stack Developer & DevOps Engineer",
+  description: "Portfolio of Ritesh Kumar Singh - Full Stack Developer and DevOps Engineer specializing in React, Node.js, Docker, and Kubernetes. Explore my projects and technical expertise.",
   keywords: [
-    "Aditya Hota",
+    "Ritesh Kumar Singh",
     "Full Stack Developer",
     "Developer",
     "DevOps Engineer",
     "Portfolio",
     "portfolio",
     "portfolio website",
-    "adityahota.online",
     "web development",
     "software development",
     "full stack developer",
@@ -30,17 +29,13 @@ export const metadata: Metadata = {
     "Docker",
     "Kubernetes"
   ],
-  alternates: {
-    canonical: 'https://adityahota.online',
-  },
-  authors: [{ name: "Aditya Hota" }],
-  creator: "Aditya Hota",
-  publisher: "Aditya Hota",
+  authors: [{ name: "Ritesh Kumar Singh" }],
+  creator: "Ritesh Kumar Singh",
+  publisher: "Ritesh Kumar Singh",
   robots: {
     index: true,
     follow: true,
   },
-  metadataBase: new URL('https://adityahota.online'),
 }
 
 export default function RootLayout({
@@ -52,23 +47,21 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
-    "name": "Aditya Hota",
-    "url": "https://adityahota.online",
-    "image": "https://adityahota.online/pfp.svg",
+    "name": "Ritesh Kumar Singh", // Fixed: removed /public
     "jobTitle": "Full Stack Developer and DevOps Engineer",
     "description": "Full Stack Developer and DevOps Engineer specializing in React, Node.js, Docker, and Kubernetes",
     "sameAs": [
-      "https://github.com/theogaditya",
-      "https://www.linkedin.com/in/aditya-hota-6b1167276",
-      "https://x.com/adityahota01"
+      "https://github.com/neutron420",
+      "https://www.linkedin.com/in/ritesh-singh1/",
+      "https://x.com/RiteshS18572143"
     ],
     "knowsAbout": [
       "React",
-      "Next.js", 
-      "Node.js", 
-      "Express.js", 
-      "Docker", 
-      "Kubernetes", 
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "Docker",
+      "Kubernetes",
       "Cloud Computing",
       "DevOps"
     ]
@@ -86,8 +79,6 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        {/* Google Analytics can be added here */}
-        
       </head>
       <body className={cn("min-h-screen bg-background font-sans antialiased", inter.className)}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>

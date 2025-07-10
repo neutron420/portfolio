@@ -19,7 +19,7 @@ export default function Page() {
           <div className="flex h-14 items-center justify-between">
             {/* Logo/Name - visible on all screens */}
             <Link className="flex items-center space-x-2" href="/">
-              <span className="font-bold">Aditya Hota</span>
+              <span className="font-bold">Ritesh Kumar Singh</span>
             </Link>
             
             {/* Desktop Navigation */}
@@ -41,7 +41,7 @@ export default function Page() {
               <ThemeToggle />
               
               {/* Resume button with PDF link */}
-              <Link href="https://pub-cfcd623b266645fc8425f95678d192d7.r2.dev/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <Link href="/RiteshResume.pdf" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline">
                   Resume
                 </Button>
@@ -108,25 +108,25 @@ export default function Page() {
                 </p>
               </div>
               <div className="space-x-4 mt-4">
-                <Link href="https://github.com/theogaditya" target="_blank">
+                <Link href="https://github.com/neutron420" target="_blank">
                   <Button variant="outline" size="icon">
                     <Github className="h-4 w-4" />
                     <span className="sr-only">GitHub</span>
                   </Button>
                 </Link>
-                <Link href="https://www.linkedin.com/in/aditya-hota-6b1167276" target="_blank">
+                <Link href="https://www.linkedin.com/in/ritesh-singh1/" target="_blank">
                   <Button variant="outline" size="icon">
                     <Linkedin className="h-4 w-4" />
                     <span className="sr-only">LinkedIn</span>
                   </Button>
                 </Link>
-                <Link href="https://x.com/adityahota01" target="_blank">
+                <Link href="https://x.com/RiteshS18572143" target="_blank">
                   <Button variant="outline" size="icon">
                     <Twitter className="h-4 w-4" />
                     <span className="sr-only">Twitter</span>
                   </Button>
                 </Link>
-                <Link href="mailto:connect@adityahota.online">
+                <Link href="mailto:fnaticritesh2004@gmail.com">
                   <Button variant="outline" size="icon">
                     <Mail className="h-4 w-4" />
                     <span className="sr-only">Email</span>
@@ -148,7 +148,7 @@ export default function Page() {
                   <div className="relative w-full pb-[100%] overflow-hidden rounded-full border-4 border-gray-200 dark:border-gray-800 bg-white">
                     <Image 
                       src="https://pub-cfcd623b266645fc8425f95678d192d7.r2.dev/pfp.svg"
-                      alt="Aditya Hota" 
+                      alt="Ritesh Kumar Singh" 
                       fill
                       className="object-cover"
                       style={{ filter: 'none' }} // Prevent theme/filter affecting image
@@ -157,7 +157,7 @@ export default function Page() {
                 </div>
                 <div className="w-full md:w-2/3 space-y-4 text-lg">
                   <p>
-                    Hello! I&apos;m Aditya, a passionate Full Stack Developer and DevOps Engineer with a keen interest in building scalable applications and optimizing deployment pipelines.
+                    Hello! I&apos;m Ritesh Kumar Singh, a passionate Full Stack Developer and DevOps Engineer with a keen interest in building scalable applications and optimizing deployment pipelines.
                   </p>
                   <p>
                     When I&apos;m not coding, you&apos;ll find me diving into new tech stacks, working on hackathon projects, or sharing insights through writing and community engagement.
@@ -175,27 +175,24 @@ export default function Page() {
               </h2>
               <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                 <ProjectCard
-                  title="Inkwell: A dev first blogging platform"
+                  title="OnePost: A Dev-Centric Blogging Platform"
                   description="A full-stack blog platform with real-time notifications, authentication, and content management. With User-friendly code editor and a beautiful UI."
-                  image="/inkwell.svg?height=400&width=600"
-                  githubLink="https://github.com/Bytewise-Consulting-Product/inkwell"
-                  liveDemoLink="https://inkwell.adityahota.online/"
+                  image="/onepost.png?height=400&width=600"
+                  githubLink="https://github.com/neutron420/onepost"
+                  liveDemoLink="https://onepost-04.vercel.app/"
                   tags={[
                     "React",
                     "Tailwind CSS",
                     "Clerk",
                     "Express",
                     "Prisma",
+                    "Node Js",
                     "PostgreSQL",
-                    "Redis",
                     "WebSocket",
-                    "Pub/Sub",
-                    "Nodemailer",
-                    "Swagger UI",
-                    "Docker",
-                    "Kubernetes",
-                    "GCP (GKE)",
-                    "NGINX"
+                    "zustland",
+                    "Vercel",
+                    "JWt",
+                    "tRpc"
                   ]}
                 />
                 <ProjectCard
@@ -205,22 +202,19 @@ export default function Page() {
                   real-time. Community features include upvoting/resolving grievances in a social feed (For You, Trending, Recent), with 
                   multilingual UI powered by Google Translate API.
                   "
-                  image="https://pub-cfcd623b266645fc8425f95678d192d7.r2.dev/swarajpfp.png"
-                  githubLink="https://github.com/theogaditya/gms"
-                  liveDemoLink="https://www.swarajdesk.co.in/"
+                  image="/Token.png"
+
+                  githubLink="https://github.com/neutron420/project-clarity"
+                  liveDemoLink="https://tokedapp.vercel.app/"
                   tags={[
-                    "Next.js",
+                    "React Js",
                     "Tailwind CSS",
-                    "Express",
-                    "Prisma ORM",
-                    "PostgreSQL",
-                    "Redis",
-                    "WebSocket",
-                    "Nodemailer",
-                    "R2 Storage",
-                    "Python",
+                    "Stacks Blockchain",
                     "Docker",
-                    "GCP (Cloud Run & Vertex AI)",
+                    "Clarity",
+                    "Leather Wallet Extension",
+                    "Ether.js",
+                    "Web3.js"
                   ]}
                 />
               </div>
@@ -253,7 +247,7 @@ export default function Page() {
         <footer className="border-t">
           <div className="border-t border-gray-100 py-6 text-center">
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              &copy; {new Date().getFullYear()} Aditya Hota. All rights reserved.
+              &copy; {new Date().getFullYear()} Ritesh Kumar Singh. All rights reserved.
             </p>
             <p className="mt-1 text-sm text-gray-500 dark:text-gray-500">
               Built with passion and too much coffee ☕

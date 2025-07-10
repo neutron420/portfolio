@@ -3,24 +3,28 @@ import { Card } from "@/components/ui/card"
 const technologies = [
   {
     category: "Frontend",
-    skills: ["HTML", "React", "Next.js", "TailwindCSS", "Recoil", "Zustand"],
+    skills: ["HTML", "React", "Next.js", "TailwindCSS", "Zustand" ,"Ethers.JS"],
   },
   {
     category: "Backend",
-    skills: ["Node.js", "Express", "WebSocket", "Pub/Sub", "WebRTC", "gRPC"],
+    skills: ["Node.js", "Express", "WebSocket", "Pub/Sub", "gRPC" ,"tRpc"],
   },
   {
     category: "Cloud & DevOps",
-    skills: ["Docker", "Kubernetes", "Prometheus & Grafana", "GCP", "Cloudflare", "ASG" , "Terraform"],
+    skills: ["Docker", "Kubernetes", "Amazon Web Services (AWS)", "GCP", "Cloudflare" ],
   },
   {
     category: "Databases",
-    skills: ["MongoDB", "PostgreSQL", "Prisma", "Redis", "Kafka"],
+    skills: ["MongoDB", "PostgreSQL", "Prisma ORM", "Redis", "MySQL"],
   },
   {
     category: "Others",
-    skills: ["Git", "GitHub", "Turborepo", "Linux"],
+    skills: ["Git", "GitHub", "Turborepo", "Linux" ,"HLD System Design"],
   },
+  {
+    category: "Web3",
+    skills: ["Clarity", "Stacks Blockchain" ,"Solidity" ,"Ethereum Blockahin"],
+  }
 ]
 
 export default function TechStack() {
