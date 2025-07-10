@@ -147,7 +147,7 @@ export default function Page() {
                   {/* Using Next.js Image component with responsive styling */}
                   <div className="relative w-full pb-[100%] overflow-hidden rounded-full border-4 border-gray-200 dark:border-gray-800 bg-white">
                     <Image 
-                      src="https://pub-cfcd623b266645fc8425f95678d192d7.r2.dev/pfp.svg"
+                      src="/Ritesh.png"
                       alt="Ritesh Kumar Singh" 
                       fill
                       className="object-cover"
